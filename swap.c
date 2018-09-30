@@ -8,6 +8,9 @@ int main(){
     printf("a : %d  b : %d\n",a,b);
 
     //swapping
+    a = a*b;
+    b = a/b;
+    a = a/b;
 
     printf("After Swapping.\n");
     printf("a : %d  b : %d\n",a,b);
